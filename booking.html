@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Stay | Imperium Stays</title>
+    <meta name="description" content="Book your luxury stay at Imperium Stays.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Imperium Stays</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="booking">
+    <h2>Book Your Stay</h2>
+
+    <form>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your name" required><br><br>
+
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="tel" placeholder="Enter your phone number" required><br><br>
+
+        <label>Check-In Date</label><br>
+        <input type="date" required><br><br>
+
+        <label>Check-Out Date</label><br>
+        <input type="date" required><br><br>
+
+        <label>Room Type</label><br>
+        <select required>
+            <option>Deluxe Room</option>
+            <option>Executive Room</option>
+            <option>Family Suite</option>
+            <option>Presidential Suite</option>
+        </select><br><br>
+
+        <label>Guests</label><br>
+        <input type="number" min="1" max="10" required><br><br>
+
+        <label>Special Requests</label><br>
+        <textarea rows="5" placeholder="Write your request..."></textarea><br><br>
+
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Imperium Stays. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
